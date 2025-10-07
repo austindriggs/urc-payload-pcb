@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "Socket_Arduino_Mega")(type "KiCad")(uri "$(KIPRJMOD)/Socket_Arduino_Mega.pretty")(options "")(descr ""))
+  (lib (name "Ceramic")(type "KiCad")(uri "${KIPRJMOD}/ceramic.pretty")(options "")(descr ""))
+  (lib (name "TS Regulators")(type "KiCad")(uri "${KIPRJMOD}/Regulators.pretty")(options "")(descr ""))
+  (lib (name "Ele Caps")(type "KiCad")(uri "${KIPRJMOD}/22uFCaps.pretty")(options "")(descr ""))
+)
