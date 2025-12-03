@@ -37,15 +37,15 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.8,
-          "height": 1.8,
-          "width": 1.8
+          "drill": 3.2,
+          "height": 5.6,
+          "width": 5.6
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.1524,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.762,
+        "silk_text_size_v": 0.762,
+        "silk_text_thickness": 0.1524,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
@@ -499,7 +499,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Payload_PCB_v3.1.kicad_pro",
+    "filename": "payload-pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -521,6 +521,32 @@
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Analog",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(7, 117, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 15,
+        "name": "Ground",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 15,
+        "line_style": 0,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 15, 10)",
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -528,7 +554,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "ANALOG*"
+      },
+      {
+        "netclass": "Ground",
+        "pattern": "GND*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/+*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -608,12 +655,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -671,6 +748,26 @@
     [
       "29e78086-2175-405e-9ba3-c48766d2f50c",
       "Root"
+    ],
+    [
+      "58b8b38b-cfb7-4491-bf70-9d4054b00c14",
+      "Power"
+    ],
+    [
+      "fa723470-fdf3-4cdf-8086-51d1c8e2382b",
+      "LEDs"
+    ],
+    [
+      "fe457dfc-b571-4479-84a6-54d271a13f33",
+      "CAN"
+    ],
+    [
+      "aed97892-0f51-4c3e-9c76-11ba2f219dbb",
+      "Pi Pico"
+    ],
+    [
+      "5c74d226-db33-4078-8191-f0b0695076b7",
+      "GPIO"
     ]
   ],
   "text_variables": {}
