@@ -3091,7 +3091,7 @@
 	)
 	(text "ADD FERRITES?\n"
 		(exclude_from_sim no)
-		(at 28.5927 76.2834 0)
+		(at 17.526 68.58 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3105,7 +3105,7 @@
 	)
 	(text "OR ADD CURRENT SENSOR"
 		(exclude_from_sim no)
-		(at 199.898 166.878 0)
+		(at 180.086 162.56 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3226,7 +3226,7 @@
 	)
 	(text "INCREASE BULK CAPACTORS\nAND GET 100V RATED"
 		(exclude_from_sim no)
-		(at 123.19 74.93 0)
+		(at 132.842 40.386 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6808,7 +6808,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4b77a933-4d0b-41f7-957c-3b62091c625b")
 		(property "Reference" "J2"
 			(at 231.902 132.842 0)

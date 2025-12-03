@@ -217,9 +217,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "README\nLIBRARIES\nMODELS"
+	(text "README\nLIBRARIES\nMODELS\n\nDE10 acrylic cover\n"
 		(exclude_from_sim no)
-		(at 202.184 28.702 0)
+		(at 201.93 18.288 0)
 		(effects
 			(font
 				(size 2.54 2.54)
