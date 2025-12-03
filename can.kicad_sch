@@ -3260,7 +3260,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "33e2c062-ad4a-4ac4-ba18-dad360b16f5d")
 		(property "Reference" "J15"
 			(at 242.824 104.648 0)
@@ -5078,7 +5078,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e1a191ae-16f1-4eda-ab9c-6734cd6c95ad")
 		(property "Reference" "J14"
 			(at 242.824 86.868 0)
