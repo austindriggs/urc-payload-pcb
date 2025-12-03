@@ -2583,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 118.11 100.33)
+			(xy 121.92 100.33) (xy 118.11 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2733,9 +2733,9 @@
 			)
 		)
 	)
-	(global_label "INT"
+	(global_label "~{CAN_INTERRUPT}"
 		(shape output)
-		(at 119.38 100.33 0)
+		(at 121.92 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2745,7 +2745,7 @@
 		)
 		(uuid "6dd404d4-a2d4-4551-bd3d-df174d5e074d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.6139 100.33 0)
+			(at 139.0677 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +2939,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -2948,7 +2948,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -2957,7 +2957,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -3035,7 +3062,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -3044,7 +3071,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -3053,7 +3080,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 73.66 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 73.66 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 73.66 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -3130,7 +3184,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3139,7 +3193,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3148,7 +3202,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3225,7 +3306,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3234,7 +3315,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3243,7 +3324,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3374,7 +3482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104J4RAC7800/12701175"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3391,7 +3499,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3400,7 +3508,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3409,7 +3517,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3468,7 +3603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104J4RAC7800/12701175"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -3485,7 +3620,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 185.42 80.01 90)
 			(effects
 				(font
@@ -3494,7 +3629,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 185.42 80.01 90)
 			(effects
 				(font
@@ -3503,7 +3638,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 185.42 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 185.42 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 185.42 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 185.42 80.01 90)
 			(effects
 				(font
@@ -4013,7 +4175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104J4RAC7800/12701175"
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -4030,7 +4192,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 109.22 72.39 90)
 			(effects
 				(font
@@ -4039,7 +4201,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 109.22 72.39 90)
 			(effects
 				(font
@@ -4048,7 +4210,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 109.22 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 109.22 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 109.22 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 109.22 72.39 90)
 			(effects
 				(font
@@ -4190,7 +4379,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -4199,7 +4388,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -4208,7 +4397,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -4304,7 +4520,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -4313,7 +4529,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -4322,7 +4538,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -4574,7 +4817,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 63.5 113.03 90)
 			(effects
 				(font
@@ -4583,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 63.5 113.03 90)
 			(effects
 				(font
@@ -4592,7 +4835,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 63.5 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 63.5 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 63.5 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 63.5 113.03 90)
 			(effects
 				(font
@@ -4735,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 127 115.57 90)
 			(effects
 				(font
@@ -4744,7 +5014,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 127 115.57 90)
 			(effects
 				(font
@@ -4753,7 +5023,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 127 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 127 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 127 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 127 115.57 90)
 			(effects
 				(font
@@ -4827,7 +5124,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -4836,7 +5133,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -4845,7 +5142,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -4912,7 +5236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104J4RAC7800/12701175"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -4929,7 +5253,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -4938,7 +5262,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -4947,7 +5271,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -5086,7 +5437,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 63.5 100.33 90)
 			(effects
 				(font
@@ -5095,7 +5446,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 63.5 100.33 90)
 			(effects
 				(font
@@ -5104,7 +5455,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 63.5 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 63.5 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 63.5 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 63.5 100.33 90)
 			(effects
 				(font

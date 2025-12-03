@@ -525,28 +525,55 @@
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "Analog",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(7, 117, 255)",
+        "name": "GPIO",
+        "pcb_color": "rgb(186, 18, 255)",
+        "priority": 5,
+        "schematic_color": "rgb(186, 18, 255)",
         "wire_width": 6
       },
       {
         "bus_width": 15,
+        "line_style": 0,
         "name": "Ground",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 0, 0)",
+        "pcb_color": "rgb(119, 119, 119)",
+        "priority": 3,
+        "schematic_color": "rgb(119, 119, 119)",
         "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "name": "LED",
+        "pcb_color": "rgb(235, 176, 88)",
+        "priority": 0,
+        "schematic_color": "rgb(235, 176, 88)",
+        "wire_width": 6
       },
       {
         "bus_width": 15,
         "line_style": 0,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(255, 15, 10)",
+        "priority": 4,
         "schematic_color": "rgb(255, 15, 10)",
         "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Protocol",
+        "pcb_color": "rgb(25, 203, 38)",
+        "priority": 2,
+        "schematic_color": "rgb(25, 203, 38)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "Servo",
+        "pcb_color": "rgb(57, 175, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(57, 175, 255)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -560,7 +587,7 @@
         "pattern": "+*"
       },
       {
-        "netclass": "Analog",
+        "netclass": "GPIO",
         "pattern": "ANALOG*"
       },
       {
@@ -574,6 +601,38 @@
       {
         "netclass": "Power",
         "pattern": "/Power/+*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "I2C*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "SPI*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "/CAN/CAN*"
+      },
+      {
+        "netclass": "Servo",
+        "pattern": "SERVO*"
+      },
+      {
+        "netclass": "Servo",
+        "pattern": "/GPIO/SERVO*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "~{CAN_INTERRUPT}"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "DIGITAL*"
+      },
+      {
+        "netclass": "LED",
+        "pattern": "LED*"
       }
     ]
   },
@@ -640,12 +699,6 @@
         },
         {
           "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -658,32 +711,50 @@
         },
         {
           "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor",
+          "name": "Vendor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor Part Number",
+          "name": "Vendor Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comments",
+          "name": "Comments",
           "show": false
         }
       ],

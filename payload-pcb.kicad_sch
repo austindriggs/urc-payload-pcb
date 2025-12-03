@@ -217,6 +217,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "README\nLIBRARIES\nMODELS"
+		(exclude_from_sim no)
+		(at 202.184 28.702 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "07710447-2109-46d1-bbdd-a87692a35d3d")
+	)
 	(text "Payload PCB"
 		(exclude_from_sim no)
 		(at 147.828 28.702 0)
@@ -230,7 +244,7 @@
 	)
 	(text "West Virginia University: University Rover Challenge (URC)\nby Austin Driggs (2025-2026)"
 		(exclude_from_sim no)
-		(at 148.844 38.862 0)
+		(at 148.844 39.37 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -246,7 +260,7 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(uuid "d6d6ef48-f9c7-4c5a-85c3-4b3a9807bdde")
 	)
@@ -303,7 +317,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 67.31 171.45 0)
 			(effects
 				(font
@@ -312,7 +326,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 67.31 171.45 0)
 			(effects
 				(font
@@ -321,7 +335,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 67.31 171.45 0)
 			(effects
 				(font
@@ -395,7 +436,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -404,7 +445,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -413,7 +454,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -487,7 +555,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 102.87 171.45 0)
 			(effects
 				(font
@@ -496,7 +564,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 102.87 171.45 0)
 			(effects
 				(font
@@ -505,7 +573,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 102.87 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 102.87 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 102.87 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 102.87 171.45 0)
 			(effects
 				(font
@@ -579,7 +674,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 85.09 171.45 0)
 			(effects
 				(font
@@ -588,7 +683,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 85.09 171.45 0)
 			(effects
 				(font
@@ -597,7 +692,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 85.09 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 85.09 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 85.09 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 85.09 171.45 0)
 			(effects
 				(font

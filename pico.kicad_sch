@@ -2867,28 +2867,6 @@
 			)
 		)
 	)
-	(global_label "INT"
-		(shape input)
-		(at 196.85 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16bcf000-6603-4a58-9128-4e3148dbbccf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.7381 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SERVO3_PICO"
 		(shape output)
 		(at 129.54 92.71 180)
@@ -2933,7 +2911,7 @@
 			)
 		)
 	)
-	(global_label "NEW_GP15"
+	(global_label "DIGITAL_GP15"
 		(shape output)
 		(at 129.54 128.27 180)
 		(fields_autoplaced yes)
@@ -2945,7 +2923,7 @@
 		)
 		(uuid "2fe87076-ce09-47f2-aec0-bd48661f0080")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.3515 128.27 0)
+			(at 114.4485 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +2933,7 @@
 			)
 		)
 	)
-	(global_label "GP22"
+	(global_label "DIGITAL_GP22"
 		(shape output)
 		(at 196.85 107.95 0)
 		(fields_autoplaced yes)
@@ -2967,7 +2945,7 @@
 		)
 		(uuid "31872e2d-df1b-46be-9247-b1f2fd2fe760")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.14 107.95 0)
+			(at 211.9415 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3043,7 @@
 			)
 		)
 	)
-	(global_label "GP21"
+	(global_label "DIGITAL_GP21"
 		(shape output)
 		(at 196.85 113.03 0)
 		(fields_autoplaced yes)
@@ -3077,7 +3055,29 @@
 		)
 		(uuid "5e4bb2a2-93fc-40e8-bf61-875644c67d4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.14 113.03 0)
+			(at 211.9415 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CAN_INTERRUPT}"
+		(shape input)
+		(at 196.85 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69b10915-c214-4f5f-abc6-d2d8217b7f24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.9977 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3263,7 @@
 			)
 		)
 	)
-	(global_label "NEW_GP14"
+	(global_label "DIGITAL_GP14"
 		(shape output)
 		(at 129.54 125.73 180)
 		(fields_autoplaced yes)
@@ -3275,7 +3275,7 @@
 		)
 		(uuid "d6830134-7e9d-4b7e-b31a-c5a0fe677392")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.3515 125.73 0)
+			(at 114.4485 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +3513,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 196.85 73.66 0)
 			(effects
 				(font
@@ -3522,7 +3522,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 196.85 73.66 0)
 			(effects
 				(font
@@ -3531,7 +3531,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 196.85 73.66 0)
 			(effects
 				(font
@@ -3738,7 +3765,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 208.28 73.66 0)
 			(effects
 				(font
@@ -3747,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 208.28 73.66 0)
 			(effects
 				(font
@@ -3756,7 +3783,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 208.28 73.66 0)
 			(effects
 				(font
@@ -3898,7 +3952,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -3907,7 +3961,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -3916,7 +3970,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 105.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 105.41 73.66 0)
 			(effects
 				(font
@@ -4057,7 +4138,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 97.79 73.66 0)
 			(effects
 				(font
@@ -4066,7 +4147,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 97.79 73.66 0)
 			(effects
 				(font
@@ -4075,7 +4156,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 97.79 73.66 0)
 			(effects
 				(font
@@ -4279,7 +4387,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 160.02 104.14 0)
 			(effects
 				(font
@@ -4288,7 +4396,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 160.02 104.14 0)
 			(effects
 				(font
@@ -4297,7 +4405,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 160.02 104.14 0)
 			(effects
 				(font
@@ -4498,7 +4633,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 87.63 93.98 0)
 			(effects
 				(font
@@ -4507,7 +4642,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 87.63 93.98 0)
 			(effects
 				(font
@@ -4516,7 +4651,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 87.63 93.98 0)
 			(effects
 				(font
@@ -4726,7 +4888,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "Manufacturer" ""
 			(at 186.69 71.12 90)
 			(effects
 				(font
@@ -4735,7 +4897,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
+		(property "Manufacturer Part Number" ""
 			(at 186.69 71.12 90)
 			(effects
 				(font
@@ -4744,7 +4906,34 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
+		(property "Vendor" ""
+			(at 186.69 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 186.69 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 186.69 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 186.69 71.12 90)
 			(effects
 				(font
