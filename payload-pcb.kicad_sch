@@ -217,23 +217,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "README\nLIBRARIES\nMODELS\n\nDE10 acrylic cover\n"
-		(exclude_from_sim no)
-		(at 201.93 18.288 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "07710447-2109-46d1-bbdd-a87692a35d3d")
-	)
 	(text "Payload PCB"
 		(exclude_from_sim no)
-		(at 147.828 28.702 0)
+		(at 145.288 28.702 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -244,7 +230,7 @@
 	)
 	(text "West Virginia University: University Rover Challenge (URC)\nby Austin Driggs (2025-2026)"
 		(exclude_from_sim no)
-		(at 148.844 39.37 0)
+		(at 146.304 39.37 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -256,7 +242,7 @@
 	)
 	(polyline
 		(pts
-			(xy 105.41 34.29) (xy 193.04 34.29)
+			(xy 102.87 34.29) (xy 190.5 34.29)
 		)
 		(stroke
 			(width 0)
@@ -266,7 +252,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 67.31 171.45 0)
+		(at 71.12 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -274,7 +260,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b1a183")
 		(property "Reference" "H1"
-			(at 69.85 170.2816 0)
+			(at 73.66 170.2816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,7 +269,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 69.85 172.593 0)
+			(at 73.66 172.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -292,7 +278,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 67.31 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +304,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 67.31 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,7 +313,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 67.31 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,7 +322,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 67.31 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,7 +331,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 67.31 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,7 +340,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 67.31 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,7 +349,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 67.31 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +371,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 120.65 171.45 0)
+		(at 124.46 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -393,7 +379,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b1aac2")
 		(property "Reference" "H4"
-			(at 123.19 170.2816 0)
+			(at 127 170.2816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -402,7 +388,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 123.19 172.593 0)
+			(at 127 172.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -411,7 +397,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 120.65 171.45 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,7 +406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 171.45 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,7 +415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 171.45 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -437,7 +423,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 120.65 171.45 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +432,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 120.65 171.45 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,7 +441,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 120.65 171.45 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -464,7 +450,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 120.65 171.45 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,7 +459,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 120.65 171.45 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +468,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 120.65 171.45 0)
+			(at 124.46 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -504,7 +490,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 102.87 171.45 0)
+		(at 106.68 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -512,7 +498,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b1d1f8")
 		(property "Reference" "H3"
-			(at 105.41 170.2816 0)
+			(at 109.22 170.2816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -521,7 +507,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 105.41 172.593 0)
+			(at 109.22 172.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -530,7 +516,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 102.87 171.45 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,7 +525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 171.45 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,7 +534,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 171.45 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +542,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 102.87 171.45 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,7 +551,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 102.87 171.45 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -574,7 +560,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 102.87 171.45 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -583,7 +569,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 102.87 171.45 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,7 +578,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 102.87 171.45 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,7 +587,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 102.87 171.45 0)
+			(at 106.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,7 +609,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 85.09 171.45 0)
+		(at 88.9 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -631,7 +617,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b1f8bd")
 		(property "Reference" "H2"
-			(at 87.63 170.2816 0)
+			(at 91.44 170.2816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -640,7 +626,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 87.63 172.593 0)
+			(at 91.44 172.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +635,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 85.09 171.45 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,7 +644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 171.45 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,7 +653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 171.45 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,7 +661,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 85.09 171.45 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,7 +670,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 85.09 171.45 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,7 +679,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 85.09 171.45 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -702,7 +688,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 85.09 171.45 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,7 +697,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 85.09 171.45 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,7 +706,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 85.09 171.45 0)
+			(at 88.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +728,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 173.99 0)
+		(at 88.9 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -751,7 +737,7 @@
 		(fields_autoplaced yes)
 		(uuid "11193139-e627-47b8-acb2-c7465a48e18b")
 		(property "Reference" "#PWR0142"
-			(at 85.09 180.34 0)
+			(at 88.9 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +746,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 179.07 0)
+			(at 88.9 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,7 +754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 173.99 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,7 +763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 173.99 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +772,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 173.99 0)
+			(at 88.9 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +793,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 173.99 0)
+		(at 106.68 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -816,7 +802,7 @@
 		(fields_autoplaced yes)
 		(uuid "873aef0f-f365-4c89-92d3-9a5a19be86c9")
 		(property "Reference" "#PWR0151"
-			(at 102.87 180.34 0)
+			(at 106.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +811,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 179.07 0)
+			(at 106.68 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 173.99 0)
+			(at 106.68 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 173.99 0)
+			(at 106.68 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 173.99 0)
+			(at 106.68 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +858,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 173.99 0)
+		(at 124.46 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -881,7 +867,7 @@
 		(fields_autoplaced yes)
 		(uuid "89388541-c53a-4eef-90a7-c694ec516b10")
 		(property "Reference" "#PWR0155"
-			(at 120.65 180.34 0)
+			(at 124.46 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 179.07 0)
+			(at 124.46 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 173.99 0)
+			(at 124.46 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 173.99 0)
+			(at 124.46 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,7 +902,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 173.99 0)
+			(at 124.46 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +923,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 173.99 0)
+		(at 71.12 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -946,7 +932,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7be828e-c869-4fe1-9b7d-45fa222a52b3")
 		(property "Reference" "#PWR0136"
-			(at 67.31 180.34 0)
+			(at 71.12 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +941,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 179.07 0)
+			(at 71.12 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 173.99 0)
+			(at 71.12 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 173.99 0)
+			(at 71.12 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +967,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 173.99 0)
+			(at 71.12 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +987,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 52.07)
+		(at 41.91 59.69)
 		(size 63.5 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1017,7 +1003,7 @@
 		)
 		(uuid "58b8b38b-cfb7-4491-bf70-9d4054b00c14")
 		(property "Sheetname" "Power"
-			(at 40.64 51.3584 0)
+			(at 41.91 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1012,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 40.64 90.7546 0)
+			(at 41.91 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,8 +1029,8 @@
 		)
 	)
 	(sheet
-		(at 193.04 52.07)
-		(size 64.77 88.9)
+		(at 41.91 110.49)
+		(size 63.5 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1059,7 +1045,7 @@
 		)
 		(uuid "5c74d226-db33-4078-8191-f0b0695076b7")
 		(property "Sheetname" "GPIO"
-			(at 193.04 51.3584 0)
+			(at 41.91 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1054,7 @@
 			)
 		)
 		(property "Sheetfile" "gpio.kicad_sch"
-			(at 193.04 141.5546 0)
+			(at 41.91 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,8 +1071,8 @@
 		)
 	)
 	(sheet
-		(at 116.84 52.07)
-		(size 63.5 38.1)
+		(at 118.11 59.69)
+		(size 63.5 88.9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1101,7 +1087,7 @@
 		)
 		(uuid "aed97892-0f51-4c3e-9c76-11ba2f219dbb")
 		(property "Sheetname" "Pi Pico"
-			(at 116.84 51.3584 0)
+			(at 118.11 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,49 +1096,7 @@
 			)
 		)
 		(property "Sheetfile" "pico.kicad_sch"
-			(at 116.84 90.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "payload-pcb"
-				(path "/29e78086-2175-405e-9ba3-c48766d2f50c"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 40.64 102.87)
-		(size 63.5 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fa723470-fdf3-4cdf-8086-51d1c8e2382b")
-		(property "Sheetname" "LEDs"
-			(at 40.64 102.1584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "leds.kicad_sch"
-			(at 40.64 141.5546 0)
+			(at 118.11 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1113,49 @@
 		)
 	)
 	(sheet
-		(at 116.84 102.87)
+		(at 194.31 59.69)
+		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed009bc9-eb74-4cea-8f66-c2275b048d81")
+		(property "Sheetname" "USB"
+			(at 194.31 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 194.31 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "payload-pcb"
+				(path "/29e78086-2175-405e-9ba3-c48766d2f50c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 110.49)
 		(size 63.5 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1185,7 +1171,7 @@
 		)
 		(uuid "fe457dfc-b571-4479-84a6-54d271a13f33")
 		(property "Sheetname" "CAN"
-			(at 116.84 102.1584 0)
+			(at 194.31 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1180,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 116.84 141.5546 0)
+			(at 194.31 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

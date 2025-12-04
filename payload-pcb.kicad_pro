@@ -496,7 +496,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "symbols"
+    ]
   },
   "meta": {
     "filename": "payload-pcb.kicad_pro",
@@ -604,7 +606,7 @@
       },
       {
         "netclass": "Protocol",
-        "pattern": "I2C*"
+        "pattern": "/Pi Pico/I2C*"
       },
       {
         "netclass": "Protocol",
@@ -632,7 +634,19 @@
       },
       {
         "netclass": "LED",
-        "pattern": "LED*"
+        "pattern": "/Pi Pico/LED*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "/USB/USB*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "UART*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "/Pi Pico/UART*"
       }
     ]
   },
@@ -825,20 +839,20 @@
       "Power"
     ],
     [
-      "fa723470-fdf3-4cdf-8086-51d1c8e2382b",
-      "LEDs"
+      "aed97892-0f51-4c3e-9c76-11ba2f219dbb",
+      "Pi Pico"
     ],
     [
       "fe457dfc-b571-4479-84a6-54d271a13f33",
       "CAN"
     ],
     [
-      "aed97892-0f51-4c3e-9c76-11ba2f219dbb",
-      "Pi Pico"
-    ],
-    [
       "5c74d226-db33-4078-8191-f0b0695076b7",
       "GPIO"
+    ],
+    [
+      "ed009bc9-eb74-4cea-8f66-c2275b048d81",
+      "USB"
     ]
   ],
   "text_variables": {}

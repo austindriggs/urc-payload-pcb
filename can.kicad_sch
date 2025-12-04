@@ -1798,20 +1798,9 @@
 		)
 		(uuid "160bf114-178d-4e33-8bfc-9255f3ec0280")
 	)
-	(text "Also shifts from 3V3 to 5V."
-		(exclude_from_sim no)
-		(at 166.878 117.602 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b9d2474-6dc9-4f9c-8654-8ad4d4a7971e")
-	)
 	(text "2 connectors allow both the\nPico and something else to\nbe connected to the bus."
 		(exclude_from_sim no)
-		(at 234.95 127.254 0)
+		(at 210.312 117.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
