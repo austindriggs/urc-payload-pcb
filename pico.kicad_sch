@@ -6617,25 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
+		(property "Notes" "The Raspberry Pi Pico features the RP2040 dual-core ARM Cortex-M0+ running up to 133 MHz, with 264 KB SRAM, 2 MB onboard flash, and flexible GPIO including ADC, PWM, I2C, SPI, and UART support, and is programmable in MicroPython."
 			(at 177.8 83.82 0)
 			(effects
 				(font

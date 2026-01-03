@@ -1,0 +1,14 @@
+# CHANGE LOG
+
+## v1
+
+- payload_PCB_v1.0: the first version of the payload PCB, compatible with an Arduino Mega
+
+## v2
+
+- payload_PCB_v2.0: revised version of the payload PCB, compatible with Arduino Megas
+
+## v3
+
+- Payload PCB v3.0: third iteration of the payload PCB, revised to use a Raspberry Pi Pico
+- Payload PCB v3.1: iteration of the payload PCB used on the 2023 robot

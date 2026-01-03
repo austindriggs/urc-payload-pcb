@@ -1,22 +1,50 @@
 # Payload PCB
 
+!TODO! PUT IMAGE HERE
+
 ## SUMMARY
 
-This payload serves as an all-purpose board in different payloads for different missions.
+The Payload PCB serves as an all-purpose control and interface board that contains the Raspberry Pi Pico (RP2040) designed to manage mission-critical sensors and electronics and communicate that information through its Micro USB connector to the LattePanda Sigma SBC.
+
+## FEATURES
+
+- Resettable PTC fuse and reverse voltage protection on +12V Molex Micro-Fit input.
+- LTC2990 Quad I2C Voltage, Current, and Temperature Monitor,
+- Traco TSR 2 Series +5V and +3V3 regulators: 96% eff, no heat sink required, built in filter caps, and short circuit protection.
+- Outputs +12V, +5V, and +3V3 on Molex Micro-Fit.
+- Status and error LEDs.
+- Connections for both the Pico and an external device to CAN bus.
+- 4x STEMMA QT / QWIIC connectors for COTS modules and peripherals.
+- 2x custom expansion modules on two 6 pin 0.1" connectors each.
+- 4x servo (PWM) outputs on Molex PicoBlades.
+- 3x analog inputs on Molex Picoblades
+- 2x digital outputs for relays.
+- 2x digital inputs (active-low) for limit switches on manipulator linear rail.
+- Micro USB port to connect to Seeeduino XIAO on manipulator.
 
 
-## CHANGE LOG
+## REPO
 
-### Version 1
+files
+kicad 9
+getting started
 
-- payload_PCB_v1.0: the first version of the payload PCB, compatible with an Arduino Mega
 
-### Version 2
+## DESIGN
 
-- payload_PCB_v2.0: revised version of the payload PCB, compatible with Arduino Megas
+schematic
+layout
+render of top
+connector pinout
+I2C mapping
+firmware notes
+known limitations
 
-### Version 3
+## CALCULATIONS
 
-- Payload PCB v3.0: third iteration of the payload PCB, revised to use a Raspberry Pi Pico
-- Payload PCB v3.1: iteration of the payload PCB used on the 2023 robot
-
+power budgeting
+regulators
+ptc fuse
+trace width for power
+trace width for impedance
+adc voltage and bandwidth
