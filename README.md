@@ -41,7 +41,7 @@ TODO
 
 ![top](releases/payload-pcb-v5.1/payload-pcb-v5.1-top.png)
 
-![alt text](releases/payload-pcb-v5.1/payload-pcb-v5.1-bottom.png)
+![bottom](releases/payload-pcb-v5.1/payload-pcb-v5.1-bottom.png)
 
 
 ### MODEL

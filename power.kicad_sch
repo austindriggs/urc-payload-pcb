@@ -5907,7 +5907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MCC (Micro Commercial Components)"
+		(property "Manufacturer" "MCC"
 			(at 100.33 58.42 90)
 			(effects
 				(font

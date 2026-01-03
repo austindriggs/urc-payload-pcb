@@ -8,7 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "mar. 31 mars 2015")
+		(title "Payload PCB")
+		(date "2026-01-03")
+		(rev "v5.1")
+		(company "WVU Unviersity Rover Challenge (URC)")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -2772,7 +2775,7 @@
 		(uuid "0f7c9129-f0cf-4d6d-8c9b-4da2f3c6430f")
 		(at 170.3832 79.9592 90)
 		(descr "SMD2520/4, Crystal, 2.5x2.0mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf")
-		(property "Reference" "Y3"
+		(property "Reference" "Y2"
 			(at -2.3622 0.8382 180)
 			(layer "F.SilkS")
 			(uuid "7f5bc272-7833-4401-b3de-d230467a0134")

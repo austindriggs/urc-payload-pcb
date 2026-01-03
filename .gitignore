@@ -2,3 +2,4 @@ payload-pcb-backups*
 ~*
 *.kicad_prl
 *cache*
+_*

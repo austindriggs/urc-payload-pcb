@@ -18,6 +18,7 @@ Changes:
 - Added USB connector to try and connect to the Seeeduino XIAO. (experimental)
 - Routed board and added silkscreen elements.
 - Updated BOM, notes, and documentation.
+- Swapped UART-to-USB from FTDI (out of stock) to MCP2200.
 
 
 ## v5.0

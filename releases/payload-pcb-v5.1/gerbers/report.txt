@@ -1,0 +1,14 @@
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-F_Cu.gtl'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-GND1.g1'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-GND2.g2'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-B_Cu.gbl'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-F_Paste.gtp'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-B_Paste.gbp'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-F_Silkscreen.gto'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-B_Silkscreen.gbo'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-F_Mask.gts'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-B_Mask.gbs'.
+Plotted to 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-Edge_Cuts.gm1'.
+Created Gerber job file 'C:\Users\austi\Documents\wvu-urc-pcbs\payload-pcb\releases\payload-pcb-v5.1\gerbers\payload-pcb-job.gbrjob'.
+Info: Done.
+Info: Done.

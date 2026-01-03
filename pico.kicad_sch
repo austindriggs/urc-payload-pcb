@@ -4639,7 +4639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -7194,7 +7194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 62.23 102.87 0)
 			(effects
 				(font

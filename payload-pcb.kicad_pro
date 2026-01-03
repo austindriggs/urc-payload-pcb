@@ -675,11 +675,11 @@
       "plot": "releases/payload-pcb-v5.1/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "payload-pcb.step",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "payload-pcb"
   },
   "schematic": {
     "annotate_start_num": 0,
