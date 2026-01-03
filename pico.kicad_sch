@@ -2007,23 +2007,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -13.97 27.94 0)
+			(property "Reference" "U14"
+				(at -10.16 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RPi_Pico"
-				(at 0 19.05 0)
+			(property "Value" "PI_PICO"
+				(at 9.652 28.956 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+			(property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2032,7 +2032,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2041,7 +2041,61 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "RASPBERRY PI PICO RP2040"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Raspberry Pi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "SC0915"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor Part Number" "2648-SC0915TR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comments" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" "The Raspberry Pi Pico features the RP2040 dual-core ARM Cortex-M0+ running up to 133 MHz, with 264 KB SRAM, 2 MB onboard flash, and flexible GPIO including ADC, PWM, I2C, SPI, and UART support, and is programmable in MicroPython."
 				(at 0 0 0)
 				(effects
 					(font
@@ -3964,8 +4018,8 @@
 		)
 		(uuid "fb8efd8e-5a33-4de4-bb33-28492ec79e00")
 	)
-	(label "LED_BAD"
-		(at 147.32 95.25 0)
+	(label "LED_ERROR"
+		(at 121.92 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3975,7 +4029,7 @@
 		(uuid "207f0b7f-071c-4120-b000-199846a1d431")
 	)
 	(label "UART1_TX"
-		(at 147.32 85.09 0)
+		(at 121.92 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3985,7 +4039,7 @@
 		(uuid "530e6866-51c2-483c-9310-da13d11a720f")
 	)
 	(label "UART1_RX"
-		(at 147.32 87.63 0)
+		(at 121.92 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3994,8 +4048,8 @@
 		)
 		(uuid "7c7378b4-e79a-4631-af93-e52538bf6540")
 	)
-	(label "LED_GOOD"
-		(at 147.32 92.71 0)
+	(label "LED_STATUS"
+		(at 121.92 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4159,7 +4213,7 @@
 		)
 	)
 	(global_label "UART0_TX"
-		(shape input)
+		(shape output)
 		(at 147.32 97.79 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6383,7 +6437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH"
+		(property "Footprint" "footprints:RPi_Pico_SMD_TH"
 			(at 177.8 83.82 90)
 			(effects
 				(font

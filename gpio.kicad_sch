@@ -2522,6 +2522,12 @@
 		(uuid "57d6bde8-8a3f-4bc3-b735-c7e85a28b772")
 	)
 	(junction
+		(at 67.31 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58661bed-ec07-41e2-829a-fc7c8a66a3a3")
+	)
+	(junction
 		(at 90.17 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2983,6 +2989,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 45.72) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21be55d3-dabc-44ee-bc82-6cbc9dc43c65")
+	)
+	(wire
+		(pts
 			(xy 106.68 142.24) (xy 99.06 142.24)
 		)
 		(stroke
@@ -2993,7 +3009,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 43.18) (xy 58.42 43.18)
+			(xy 53.34 43.18) (xy 49.53 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3033,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 43.18) (xy 58.42 40.64)
+			(xy 49.53 43.18) (xy 49.53 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3233,7 +3249,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 45.72) (xy 86.36 45.72)
+			(xy 63.5 45.72) (xy 67.31 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3293,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 48.26) (xy 50.8 48.26)
+			(xy 53.34 48.26) (xy 41.91 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3360,6 +3376,16 @@
 			(type default)
 		)
 		(uuid "55295076-fecc-4c9e-be60-db70147ef5d4")
+	)
+	(wire
+		(pts
+			(xy 67.31 45.72) (xy 67.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55812847-c149-4b8f-a619-d49fcc8c6ac3")
 	)
 	(wire
 		(pts
@@ -3503,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 50.8 48.26)
+			(xy 41.91 40.64) (xy 41.91 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4642,7 +4668,7 @@
 		(uuid "3667b1b9-4e87-4294-89cc-bcd3d216bd28")
 	)
 	(label "+QUIIC"
-		(at 74.93 45.72 0)
+		(at 71.12 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5066,6 +5092,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 67.31 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "016f59bb-568d-4542-84bc-7ba18c2e7475")
+		(property "Reference" "C13"
+			(at 70.104 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 68.58 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 66.3448 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+			(at 67.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
+			(at 67.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C1206C104J5RACTU"
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "399-C1206C104J5RACTUCT-ND"
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b04d033a-f3c3-489a-9042-6b5a6f9544ca")
+		)
+		(pin "2"
+			(uuid "f957a5bf-4cbf-45eb-a8fe-e0a3d3770129")
+		)
+		(instances
+			(project "payload-pcb"
+				(path "/29e78086-2175-405e-9ba3-c48766d2f50c/5c74d226-db33-4078-8191-f0b0695076b7"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 99.06 59.69 0)
 		(unit 1)
@@ -5128,7 +5277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "455-1566-1-ND"
+		(property "Manufacturer Part Number" "SM04B-GHS-TB"
 			(at 99.06 59.69 0)
 			(effects
 				(font
@@ -5146,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" "SM04B-GHS-TB"
+		(property "Vendor Part Number" "455-1566-1-ND"
 			(at 99.06 59.69 0)
 			(effects
 				(font
@@ -5449,7 +5598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "455-1566-1-ND"
+		(property "Manufacturer Part Number" "SM04B-GHS-TB"
 			(at 99.06 73.66 0)
 			(effects
 				(font
@@ -5467,7 +5616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" "SM04B-GHS-TB"
+		(property "Vendor Part Number" "455-1566-1-ND"
 			(at 99.06 73.66 0)
 			(effects
 				(font
@@ -5710,7 +5859,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 67.31 45.72 0)
+		(at 58.42 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5720,7 +5869,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f2ce641-e85b-4295-9872-adb2b3178988")
 		(property "Reference" "SW1"
-			(at 67.31 36.83 0)
+			(at 58.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5877,7 @@
 			)
 		)
 		(property "Value" "QUIIC"
-			(at 67.31 39.37 0)
+			(at 58.42 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5885,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
-			(at 67.31 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5894,7 @@
 			)
 		)
 		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/EG.pdf"
-			(at 67.31 53.34 0)
+			(at 58.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5903,7 @@
 			)
 		)
 		(property "Description" "SWITCH SLIDE SPDT 300MA 30V"
-			(at 67.31 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5912,7 @@
 			)
 		)
 		(property "Vendor" "Digikey"
-			(at 67.31 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5921,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 67.31 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5930,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "EG1271A"
-			(at 67.31 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5939,7 @@
 			)
 		)
 		(property "Vendor Part Number" "EG1919-ND"
-			(at 67.31 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +6028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "455-1566-1-ND"
+		(property "Manufacturer Part Number" "SM04B-GHS-TB"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -5897,7 +6046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" "SM04B-GHS-TB"
+		(property "Vendor Part Number" "455-1566-1-ND"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -6073,7 +6222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SAM10025-ND"
+		(property "Manufacturer Part Number" "SSW-106-01-F-S"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -6607,7 +6756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SAM10025-ND"
+		(property "Manufacturer Part Number" "SSW-106-01-F-S"
 			(at 111.76 144.78 0)
 			(effects
 				(font
@@ -7058,7 +7207,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 58.42 40.64 0)
+		(at 49.53 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7066,7 +7215,7 @@
 		(dnp no)
 		(uuid "712da2bd-1237-4109-923a-4be854974b08")
 		(property "Reference" "#PWR046"
-			(at 58.42 44.45 0)
+			(at 49.53 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +7224,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 58.42 36.576 0)
+			(at 49.53 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 40.64 0)
+			(at 49.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 40.64 0)
+			(at 49.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +7250,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 40.64 0)
+			(at 49.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,6 +7328,70 @@
 			(project "payload-pcb"
 				(path "/29e78086-2175-405e-9ba3-c48766d2f50c/5c74d226-db33-4078-8191-f0b0695076b7"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82dd65bc-799f-406b-bf70-1422b296c0ea")
+		(property "Reference" "#PWR064"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7803e414-2976-4bcb-9723-f4654c84b472")
+		)
+		(instances
+			(project "payload-pcb"
+				(path "/29e78086-2175-405e-9ba3-c48766d2f50c/5c74d226-db33-4078-8191-f0b0695076b7"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7619,7 +7832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SAM10025-ND"
+		(property "Manufacturer Part Number" "SSW-106-01-F-S"
 			(at 111.76 161.29 0)
 			(effects
 				(font
@@ -7883,7 +8096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "455-1566-1-ND"
+		(property "Manufacturer Part Number" "SM04B-GHS-TB"
 			(at 99.06 45.72 0)
 			(effects
 				(font
@@ -7901,7 +8114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" "SM04B-GHS-TB"
+		(property "Vendor Part Number" "455-1566-1-ND"
 			(at 99.06 45.72 0)
 			(effects
 				(font
@@ -8721,7 +8934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SAM10025-ND"
+		(property "Manufacturer Part Number" "SSW-106-01-F-S"
 			(at 111.76 177.8 0)
 			(effects
 				(font
@@ -9591,7 +9804,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 50.8 40.64 0)
+		(at 41.91 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9600,7 +9813,7 @@
 		(dnp no)
 		(uuid "f58cfd25-c74d-4964-8239-a5994ae5d49d")
 		(property "Reference" "#PWR058"
-			(at 50.8 44.45 0)
+			(at 41.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9822,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 50.8 36.576 0)
+			(at 41.91 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +9830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 40.64 0)
+			(at 41.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +9839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 40.64 0)
+			(at 41.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9635,7 +9848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 40.64 0)
+			(at 41.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

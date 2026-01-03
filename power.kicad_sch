@@ -3171,7 +3171,7 @@
 		)
 		(uuid "745e2d5f-4f9c-4a73-a6e2-adced97ebdac")
 	)
-	(text "ONBOARD REGULATORS"
+	(text "VOLTAGE REGULATORS"
 		(exclude_from_sim no)
 		(at 90.424 107.188 0)
 		(effects
@@ -3254,6 +3254,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04caac08-5afb-4fe6-bf34-7c8a1510859e")
+	)
+	(junction
+		(at 133.35 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16885338-3782-4799-8400-b0de441cc0f0")
 	)
 	(junction
 		(at 60.96 58.42)
@@ -3356,6 +3362,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba822e94-54f2-47d8-82bc-0876372a169c")
+	)
+	(junction
+		(at 71.12 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c45e5bd4-bbb7-4841-888f-02e06e5db7af")
 	)
 	(junction
 		(at 71.12 53.34)
@@ -3477,7 +3489,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 128.27) (xy 139.7 128.27)
+			(xy 128.27 128.27) (xy 133.35 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3617,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 128.27) (xy 76.2 128.27)
+			(xy 66.04 128.27) (xy 71.12 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4137,6 +4149,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 128.27) (xy 139.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3b8a97-58e3-4ab8-8382-3c40b8cfdcfb")
+	)
+	(wire
+		(pts
 			(xy 180.34 88.9) (xy 196.85 88.9)
 		)
 		(stroke
@@ -4154,6 +4176,16 @@
 			(type default)
 		)
 		(uuid "ec600186-968c-4877-8fa1-e6d1d3f83f28")
+	)
+	(wire
+		(pts
+			(xy 71.12 128.27) (xy 76.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7196b8-a189-49cb-967d-422afdd95424")
 	)
 	(wire
 		(pts
@@ -4750,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Payload_PCB_v3.1:CONV_TSR_2-2433"
+		(property "Footprint" "footprints:TSR_2-24xx"
 			(at 118.11 124.46 0)
 			(effects
 				(font
@@ -6200,6 +6232,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 133.35 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "53df6231-859e-443f-a1d3-aa05fda5b4fb")
+		(property "Reference" "TP6"
+			(at 131.826 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 130.302 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "605a3633-01d9-477f-a4a0-8c8f72392dda")
+		)
+		(instances
+			(project "payload-pcb"
+				(path "/29e78086-2175-405e-9ba3-c48766d2f50c/58b8b38b-cfb7-4491-bf70-9d4054b00c14"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 101.6 0)
 		(unit 1)
@@ -7389,7 +7542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Payload_PCB_v3.1:CONV_TSR_2-2433"
+		(property "Footprint" "footprints:TSR_2-24xx"
 			(at 55.88 124.46 0)
 			(effects
 				(font
@@ -7549,6 +7702,127 @@
 			(project "payload-pcb"
 				(path "/29e78086-2175-405e-9ba3-c48766d2f50c/58b8b38b-cfb7-4491-bf70-9d4054b00c14"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ba636db-e5c7-474c-ad88-067abdf7db71")
+		(property "Reference" "TP4"
+			(at 69.596 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5V"
+			(at 68.072 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 76.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0940e9be-3aca-4fcd-b34a-c3fd0546293a")
+		)
+		(instances
+			(project "payload-pcb"
+				(path "/29e78086-2175-405e-9ba3-c48766d2f50c/58b8b38b-cfb7-4491-bf70-9d4054b00c14"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
