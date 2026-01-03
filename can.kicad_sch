@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "CAN")
-		(date "2025-12-02")
-		(rev "v5.0")
-		(company "WVU Unviersity Rover Challenge")
+		(date "2025-01-02")
+		(rev "v5.1")
+		(company "WVU Unviersity Rover Challenge (URC)")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1446,8 +1446,12 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1547,8 +1551,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3.3V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1568,8 +1571,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1669,8 +1676,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1690,8 +1696,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1767,8 +1777,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1789,7 +1798,7 @@
 	)
 	(text "The Pico uses SPI to communicate with the controller since the\nRP2040 doesn't have a controller or transciever built in."
 		(exclude_from_sim no)
-		(at 154.178 42.672 0)
+		(at 153.416 143.002 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2680,7 +2689,7 @@
 		)
 		(uuid "16ae3b30-311e-44fa-a355-571c7caa4811")
 	)
-	(label "CAN_H"
+	(label "CAN+"
 		(at 218.44 92.71 180)
 		(effects
 			(font
@@ -2690,7 +2699,7 @@
 		)
 		(uuid "6223f125-3586-4480-9fb1-5d34e0c3112b")
 	)
-	(label "CAN_L"
+	(label "CAN-"
 		(at 218.44 100.33 180)
 		(effects
 			(font
@@ -2902,7 +2911,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 202.184 96.266 90)
 			(effects
 				(font
@@ -2911,7 +2920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -2920,15 +2929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Description" "RES 121 OHM 1% 1/8W 0603"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -2937,7 +2938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -2946,7 +2947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Manufacturer Part Number" "RNCP0603FTD121R"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -2955,7 +2956,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor" "Digikey"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "RNCP0603FTD121RCT-ND"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -2974,6 +2984,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -3033,7 +3061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/830003151.pdf"
 			(at 73.66 106.68 0)
 			(effects
 				(font
@@ -3042,7 +3070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Wurth 830003151"
+		(property "Description" "WE-XTAL QUARTZ CRYSTAL 8.0 MHZ;"
 			(at 73.66 106.68 0)
 			(effects
 				(font
@@ -3051,7 +3079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -3060,7 +3088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "830003151"
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -3069,7 +3097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digikey"
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -3078,7 +3106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "732-830003151CT-ND"
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -3097,6 +3125,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 73.66 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 73.66 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -3147,7 +3193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.984 110.236 90)
 			(effects
 				(font
@@ -3156,7 +3202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCP.pdf"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3165,15 +3211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 127 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Description" "RES 10K OHM 1% 1/8W 0603"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3182,7 +3220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3191,7 +3229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Manufacturer Part Number" "RNCP0603FTD10K0"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3200,7 +3238,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor" "Digikey"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "RNCP0603FTD10K0CT-ND"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3219,6 +3266,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -3249,7 +3314,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "33e2c062-ad4a-4ac4-ba18-dad360b16f5d")
 		(property "Reference" "J15"
 			(at 242.824 104.648 0)
@@ -3278,7 +3343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/530470310_sd.pdf"
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3287,15 +3352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 240.03 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Description" "CONN HEADER VERT 4POS 1.25MM"
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3304,7 +3361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer" "Molex"
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3313,7 +3370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Manufacturer Part Number" "0530470410"
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3322,7 +3379,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor" "Digikey"
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "WM1733-ND"
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3341,6 +3407,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3453,7 +3537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1uF"
 			(at 154.051 106.0066 0)
 			(effects
 				(font
@@ -3471,7 +3555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104J4RAC7800/12701175"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3480,15 +3564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 151.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3497,7 +3573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer" "KEMET"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3506,7 +3582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Manufacturer Part Number" "C1206C104J5RACTU"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3515,7 +3591,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor" "Digikey"
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "399-C1206C104J5RACTUCT-ND"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3534,6 +3619,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -3575,7 +3678,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1uF"
 			(at 185.42 76.6596 90)
 			(effects
 				(font
@@ -3592,7 +3695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104J4RAC7800/12701175"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -3601,15 +3704,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
 			(at 185.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 185.42 80.01 90)
 			(effects
 				(font
@@ -3618,7 +3722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C1206C104J5RACTU"
 			(at 185.42 80.01 90)
 			(effects
 				(font
@@ -3627,7 +3731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digikey"
 			(at 185.42 80.01 90)
 			(effects
 				(font
@@ -3636,7 +3740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "399-C1206C104J5RACTUCT-ND"
 			(at 185.42 80.01 90)
 			(effects
 				(font
@@ -3655,6 +3759,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 185.42 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 185.42 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 185.42 80.01 90)
 			(effects
 				(font
@@ -4147,7 +4269,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1uF"
 			(at 109.22 69.0396 90)
 			(effects
 				(font
@@ -4164,7 +4286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104J4RAC7800/12701175"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -4173,15 +4295,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
 			(at 109.22 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 109.22 72.39 90)
 			(effects
 				(font
@@ -4190,7 +4313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C1206C104J5RACTU"
 			(at 109.22 72.39 90)
 			(effects
 				(font
@@ -4199,7 +4322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digikey"
 			(at 109.22 72.39 90)
 			(effects
 				(font
@@ -4208,7 +4331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "399-C1206C104J5RACTUCT-ND"
 			(at 109.22 72.39 90)
 			(effects
 				(font
@@ -4227,6 +4350,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 109.22 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 109.22 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 109.22 72.39 90)
 			(effects
 				(font
@@ -4351,7 +4492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005284A.pdf"
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -4360,15 +4501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Description" "IC TRANSCEIVER 1/1 8SOIC"
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -4377,7 +4510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer" "Microchip Technology"
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -4386,7 +4519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Manufacturer Part Number" "MCP2562FDT-E/SN"
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -4395,7 +4528,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor" "Digikey"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "MCP2562FDT-E/SNCT-ND"
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -4414,6 +4556,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 179.07 96.52 0)
 			(effects
 				(font
@@ -4492,7 +4652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf"
 			(at 105.41 120.65 0)
 			(effects
 				(font
@@ -4501,15 +4661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Description" "IC CAN CONTROLLER W/SPI 18SOIC"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -4518,7 +4670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer" "Microchip Technology"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -4527,7 +4679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Manufacturer Part Number" "MCP2515T-E/SO"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -4536,7 +4688,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor" "Digikey"
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "MCP2515T-E/SOCT-ND"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -4555,6 +4716,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -4709,8 +4888,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 151.13 94.1855 0)
+		(property "Value" "+3V3"
+			(at 151.13 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4951,7 @@
 				)
 			)
 		)
-		(property "Value" "22 pF"
+		(property "Value" "22pF"
 			(at 68.326 110.998 90)
 			(effects
 				(font
@@ -4789,7 +4968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 63.5 113.03 0)
 			(effects
 				(font
@@ -4798,15 +4977,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V X7R 0603"
 			(at 63.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 63.5 113.03 90)
 			(effects
 				(font
@@ -4815,7 +4995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0603C220K5RACTU"
 			(at 63.5 113.03 90)
 			(effects
 				(font
@@ -4824,7 +5004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digikey"
 			(at 63.5 113.03 90)
 			(effects
 				(font
@@ -4833,7 +5013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "399-C0603C220K5RACTUCT-ND"
 			(at 63.5 113.03 90)
 			(effects
 				(font
@@ -4852,6 +5032,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 63.5 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 63.5 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 63.5 113.03 90)
 			(effects
 				(font
@@ -4944,7 +5142,7 @@
 		(at 127 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dbebdb12-fa2a-43d4-a6ae-c0f87229258a")
@@ -5048,6 +5246,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 127 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
+			(at 127 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8ae3524-5bc3-4061-8e93-ed86c7c01cdf")
 		)
@@ -5067,7 +5283,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "e1a191ae-16f1-4eda-ab9c-6734cd6c95ad")
 		(property "Reference" "J14"
 			(at 242.824 86.868 0)
@@ -5096,7 +5312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/530470310_sd.pdf"
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -5105,15 +5321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Description" "CONN HEADER VERT 4POS 1.25MM"
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -5122,7 +5330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer" "Molex"
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -5131,7 +5339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Manufacturer Part Number" "0530470410"
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -5140,7 +5348,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor" "Digikey"
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "WM1733-ND"
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -5159,6 +5376,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -5207,7 +5442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1uF"
 			(at 130.81 121.9199 0)
 			(effects
 				(font
@@ -5225,7 +5460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104J4RAC7800/12701175"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -5234,15 +5469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 127 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -5251,7 +5478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer" "KEMET"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -5260,7 +5487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Manufacturer Part Number" "C1206C104J5RACTU"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -5269,7 +5496,16 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor" "Digikey"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "399-C1206C104J5RACTUCT-ND"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -5288,6 +5524,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -5392,7 +5646,7 @@
 				)
 			)
 		)
-		(property "Value" "22 pF"
+		(property "Value" "22pF"
 			(at 68.326 98.298 90)
 			(effects
 				(font
@@ -5409,7 +5663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 63.5 100.33 0)
 			(effects
 				(font
@@ -5418,15 +5672,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 22PF 50V X7R 0603"
 			(at 63.5 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 63.5 100.33 90)
 			(effects
 				(font
@@ -5435,7 +5690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0603C220K5RACTU"
 			(at 63.5 100.33 90)
 			(effects
 				(font
@@ -5444,7 +5699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digikey"
 			(at 63.5 100.33 90)
 			(effects
 				(font
@@ -5453,7 +5708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "399-C0603C220K5RACTUCT-ND"
 			(at 63.5 100.33 90)
 			(effects
 				(font
@@ -5472,6 +5727,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 63.5 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 63.5 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 63.5 100.33 90)
 			(effects
 				(font

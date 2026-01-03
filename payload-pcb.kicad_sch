@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Payload PCB")
-		(date "2025-12-02")
-		(rev "v5.0")
-		(company "WVU Unviersity Rover Challenge")
+		(date "2025-01-02")
+		(rev "v5.1")
+		(company "WVU Unviersity Rover Challenge (URC)")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
@@ -120,8 +120,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -197,8 +201,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -219,18 +222,18 @@
 	)
 	(text "Payload PCB"
 		(exclude_from_sim no)
-		(at 145.288 28.702 0)
+		(at 148.59 34.29 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 3.81 3.81)
 				(thickness 0.635)
 			)
 		)
 		(uuid "6b3ab8e9-813d-42a0-b570-ae2f655aefe3")
 	)
-	(text "West Virginia University: University Rover Challenge (URC)\nby Austin Driggs (2025-2026)"
+	(text "by Austin Driggs\n2025-2026"
 		(exclude_from_sim no)
-		(at 146.304 39.37 0)
+		(at 148.59 43.434 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -240,23 +243,13 @@
 		)
 		(uuid "e19e9df9-fb81-45a9-b04d-9fa496a3170c")
 	)
-	(polyline
-		(pts
-			(xy 102.87 34.29) (xy 190.5 34.29)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d6d6ef48-f9c7-4c5a-85c3-4b3a9807bdde")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 71.12 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b1a183")
 		(property "Reference" "H1"
@@ -357,6 +350,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a2037c1-30cc-4fec-ac83-7253ca56fba3")
 		)
@@ -374,7 +385,7 @@
 		(at 124.46 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b1aac2")
@@ -476,6 +487,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c45f5a55-3455-4f6b-87e0-c000b4d63332")
 		)
@@ -493,7 +522,7 @@
 		(at 106.68 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b1d1f8")
@@ -595,6 +624,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43961b08-c645-4ae8-8b1e-84e65d64481f")
 		)
@@ -612,8 +659,8 @@
 		(at 88.9 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061b1f8bd")
 		(property "Reference" "H2"
@@ -706,6 +753,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_3V3OUT" ""
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.2_VCC" ""
 			(at 88.9 171.45 0)
 			(effects
 				(font
