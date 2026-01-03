@@ -1,6 +1,6 @@
 # Payload PCB
 
-![render](releases/payload-pcb-v5.1/payload-pcb-v5.1-22d0385e-render.png)
+![render](releases/payload-pcb-v5.1/payload-pcb-v5.1-render.png)
 
 
 
@@ -39,9 +39,9 @@ TODO
 
 ### LAYOUT
 
-![top](releases/payload-pcb-v5.1/payload-pcb-v5.1-22d0385e-top.png)
+![top](releases/payload-pcb-v5.1/payload-pcb-v5.1-top.png)
 
-![alt text](releases/payload-pcb-v5.1/payload-pcb-v5.1-22d0385e-bottom.png)
+![alt text](releases/payload-pcb-v5.1/payload-pcb-v5.1-bottom.png)
 
 
 ### MODEL

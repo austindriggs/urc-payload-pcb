@@ -668,7 +668,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ManipulatorER_v3.net",
-      "plot": "",
+      "plot": "releases/payload-pcb-v5.1/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
