@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "USB")
-		(date "2025-01-02")
+		(date "2026-01-03")
 		(rev "v5.1")
 		(company "WVU Unviersity Rover Challenge (URC)")
 	)
@@ -1890,24 +1890,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Würth Elektronik"
 			(at 86.36 92.71 0)
 			(effects
@@ -2280,24 +2262,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 152.4 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 152.4 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 152.4 92.71 90)
 			(effects
@@ -2577,24 +2541,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 132.08 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 132.08 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e40de879-29cf-47b2-9068-21b9607c7c76")
 		)
@@ -2775,24 +2721,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 140.97 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 140.97 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 140.97 106.68 0)
 			(effects
 				(font
@@ -3006,24 +2934,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 152.4 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 152.4 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 152.4 95.25 90)
 			(effects
@@ -3168,24 +3078,6 @@
 		)
 		(property "Notes" ""
 			(at 110.49 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 110.49 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 110.49 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,24 +3375,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 172.72 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 172.72 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8f6990fc-8365-4b03-8fd1-640c8b8a0651")
 		)
@@ -3618,24 +3492,6 @@
 		)
 		(property "Notes" ""
 			(at 198.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 198.12 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 198.12 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)

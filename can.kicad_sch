@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CAN")
-		(date "2025-01-02")
+		(date "2026-01-03")
 		(rev "v5.1")
 		(company "WVU Unviersity Rover Challenge (URC)")
 	)
@@ -2992,24 +2992,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f04f14a6-1d01-439c-8b0c-63c0c0ef3032")
 		)
@@ -3125,24 +3107,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 73.66 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 73.66 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -3274,24 +3238,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 127 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 127 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b5ffa04f-447f-4e18-a37c-3061757d4215")
 		)
@@ -3407,24 +3353,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 240.03 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 240.03 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -3627,24 +3555,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 151.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 151.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3cc6c5df-c949-4933-9a86-704097cd3860")
 		)
@@ -3759,24 +3669,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 185.42 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 185.42 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 185.42 80.01 90)
 			(effects
 				(font
@@ -4358,24 +4250,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 109.22 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 109.22 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1c37f6f1-1390-45a2-b538-939cbfef1c92")
 		)
@@ -4564,24 +4438,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 179.07 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "21de29f1-55e6-491f-9b72-2d0cf15d30d9")
 		)
@@ -4716,24 +4572,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 102.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 102.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -5040,24 +4878,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 63.5 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 63.5 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "69bc67b6-3921-419c-ba0f-bcb0ccd63e34")
 		)
@@ -5246,24 +5066,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 127 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 127 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e8ae3524-5bc3-4061-8e93-ed86c7c01cdf")
 		)
@@ -5376,24 +5178,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -5524,24 +5308,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 127 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 127 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -5727,24 +5493,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 63.5 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 63.5 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 63.5 100.33 90)
 			(effects
 				(font

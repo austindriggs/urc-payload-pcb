@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Payload PCB")
-		(date "2025-01-02")
+		(date "2026-01-03")
 		(rev "v5.1")
 		(company "WVU Unviersity Rover Challenge (URC)")
 	)
@@ -350,24 +350,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 71.12 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 71.12 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6a2037c1-30cc-4fec-ac83-7253ca56fba3")
 		)
@@ -479,24 +461,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 124.46 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 124.46 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 124.46 171.45 0)
 			(effects
 				(font
@@ -624,24 +588,6 @@
 				(hide yes)
 			)
 		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 106.68 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
-			(at 106.68 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "43961b08-c645-4ae8-8b1e-84e65d64481f")
 		)
@@ -753,24 +699,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 88.9 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_3V3OUT" ""
-			(at 88.9 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.2_VCC" ""
 			(at 88.9 171.45 0)
 			(effects
 				(font
