@@ -3572,6 +3572,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 236.22 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d1768d2-8130-48c8-ad6c-5ae1f01d0df9")
 		)
@@ -3668,6 +3677,24 @@
 			)
 		)
 		(property "Vendor Part Number" "732-5960-1-ND"
+			(at 62.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "U040-006-MICRO"
+			(at 62.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 62.23 110.49 0)
 			(effects
 				(font
@@ -3874,6 +3901,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 226.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06a99334-792a-4e7f-bf52-2aa4f7bfa31b")
 		)
@@ -4062,6 +4098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 176.53 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70cd6f62-547b-43ed-9b05-ea1214ea67c0")
 		)
@@ -4222,6 +4267,15 @@
 			)
 		)
 		(property "Vendor Part Number" "RNCP0603FTD22R1CT-ND"
+			(at 123.19 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 123.19 113.03 90)
 			(effects
 				(font
@@ -4480,6 +4534,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 226.06 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5f73129-da23-4d42-b227-3f4fa130fcb9")
 		)
@@ -4596,6 +4659,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 88.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 88.9 124.46 0)
 			(effects
 				(font
@@ -4840,6 +4912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "9289895b-dc19-4c11-b228-8e1fce936c94")
 		)
@@ -5018,6 +5099,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 97.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f08e138-9ade-443f-b1ea-be5455c3d401")
 		)
@@ -5131,6 +5221,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 130.81 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 130.81 127 90)
 			(effects
 				(font
@@ -5456,6 +5555,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 72.39 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c6d72d7-f9ba-4e89-9e06-9638789d0fb4")
 		)
@@ -5689,6 +5797,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 147.32 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1abf413-0db1-49a6-af41-0b1a99168486")
 		)
@@ -5855,6 +5972,15 @@
 			)
 		)
 		(property "Vendor Part Number" "576-3490-1-ND"
+			(at 95.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 95.25 63.5 0)
 			(effects
 				(font
@@ -6042,6 +6168,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 123.19 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd32e53e-3375-4420-884d-cc274aea3256")
 		)
@@ -6159,6 +6294,15 @@
 		)
 		(property "Notes" ""
 			(at 118.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
+			(at 118.11 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,6 +6433,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8025666-8eca-45a5-bca5-1a38a9345bd9")
 		)
@@ -6411,6 +6564,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 130.81 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9019e153-ed2e-46f5-b159-4d9ec804fdda")
 		)
@@ -6506,6 +6668,15 @@
 			)
 		)
 		(property "Vendor Part Number" "RNCP0603FTD22R1CT-ND"
+			(at 236.22 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 236.22 144.78 90)
 			(effects
 				(font
@@ -6759,6 +6930,15 @@
 		)
 		(property "Notes" ""
 			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
+			(at 196.85 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)

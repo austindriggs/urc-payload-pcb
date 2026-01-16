@@ -4693,6 +4693,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "742474a1-0697-406b-b553-fb785609b052")
 		)
@@ -4936,6 +4945,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 242.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 242.57 53.34 0)
 			(effects
 				(font
@@ -5196,6 +5214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 49.53 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a0e723d-7107-4932-9d38-c60b178cb2bf")
 		)
@@ -5315,6 +5342,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 254 53.34 0)
 			(effects
 				(font
@@ -5512,6 +5548,24 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" "0510210400"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7a33ce2-7545-40d4-a6b1-a7d0e445cb3d")
 		)
@@ -5698,6 +5752,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 125.73 53.34 0)
 			(effects
 				(font
@@ -5953,6 +6016,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 118.11 53.34 0)
 			(effects
 				(font
@@ -6275,6 +6347,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 72.39 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b74d3869-7514-4fd3-b0eb-de319bb654a5")
 		)
@@ -6400,6 +6481,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "991783cd-73be-4343-9943-892151a2b885")
 		)
@@ -6510,6 +6600,24 @@
 			)
 		)
 		(property "Notes" "The Raspberry Pi Pico features the RP2040 dual-core ARM Cortex-M0+ running up to 133 MHz, with 264 KB SRAM, 2 MB onboard flash, and flexible GPIO including ADC, PWM, I2C, SPI, and UART support, and is programmable in MicroPython."
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Header" "SSW-120-01-F-S"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 177.8 83.82 0)
 			(effects
 				(font
@@ -6757,6 +6865,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" "0510210400"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
 			(at 59.69 142.24 0)
 			(effects
 				(font
@@ -7020,6 +7146,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 49.53 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "167901a4-6a39-4c5a-a75f-6755d10ae4bb")
 		)
@@ -7118,6 +7253,15 @@
 			)
 		)
 		(property "Vendor Part Number" "RNCP0603FTD22R1CT-ND"
+			(at 72.39 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 72.39 85.09 90)
 			(effects
 				(font
@@ -7240,6 +7384,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 62.23 102.87 0)
 			(effects
 				(font
@@ -7439,6 +7592,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bbb6a81-ebe3-42ef-8e94-029832847bf8")
 		)
@@ -7616,6 +7778,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 232.41 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 232.41 50.8 90)
 			(effects
 				(font

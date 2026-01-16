@@ -787,6 +787,30 @@
           "label": "Comments",
           "name": "Comments",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Assembly",
+          "name": "Assembly",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Header",
+          "name": "Header",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Cable",
+          "name": "Cable",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Housing",
+          "name": "Housing",
+          "show": true
         }
       ],
       "filter_string": "",

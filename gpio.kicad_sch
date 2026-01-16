@@ -5199,6 +5199,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 67.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b04d033a-f3c3-489a-9042-6b5a6f9544ca")
 		)
@@ -5314,6 +5323,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 99.06 59.69 0)
 			(effects
 				(font
@@ -5517,6 +5535,24 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" "0510210300"
+			(at 254 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
+			(at 254 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adf574e2-72af-4e43-aab3-43060cbc216d")
 		)
@@ -5635,6 +5671,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 99.06 73.66 0)
 			(effects
 				(font
@@ -5947,6 +5992,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 58.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f717427-d4b2-4c2b-b68b-31fc3e4a0c10")
 		)
@@ -6065,6 +6119,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -6267,6 +6330,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "962ab743-217b-471e-b5c1-3b56489df158")
 		)
@@ -6378,6 +6450,15 @@
 		)
 		(property "Vendor Part Number" "296-4658-1-ND"
 			(at 186.182 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
+			(at 185.42 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,6 +6618,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" "0510210300"
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
 			(at 254 135.89 0)
 			(effects
 				(font
@@ -6801,6 +6900,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "279fb68e-71c0-46a8-abee-3130d2ba0a61")
 		)
@@ -7001,6 +7109,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 250.19 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f3b2f1d-25b7-4206-8116-a9aa62619b85")
 		)
@@ -7115,6 +7232,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" "0510210300"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
 			(at 148.59 53.34 0)
 			(effects
 				(font
@@ -7506,6 +7641,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13ed5193-7830-4e79-a407-437f091132f8")
 		)
@@ -7622,6 +7766,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 236.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 236.22 41.91 0)
 			(effects
 				(font
@@ -7754,6 +7907,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36dff7f9-8f04-48c5-82b8-3a60ee4e2acf")
 		)
@@ -7869,6 +8031,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 111.76 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 111.76 161.29 0)
 			(effects
 				(font
@@ -8141,6 +8312,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 99.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b5ef6bd-1412-4688-8cf3-d17d1512b2e5")
 		)
@@ -8333,6 +8513,24 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" "0510210300"
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc2d57b1-e9ed-4e15-a7d7-2c7a475f926b")
 		)
@@ -8450,6 +8648,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 191.77 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 191.77 114.3 90)
 			(effects
 				(font
@@ -8638,6 +8845,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" "0510210800"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
 			(at 261.62 50.8 0)
 			(effects
 				(font
@@ -8853,6 +9078,24 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" "0510210300"
+			(at 254 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
+			(at 254 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b00423d-ba48-45c5-88ce-c2e084c5c05b")
 		)
@@ -8971,6 +9214,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 111.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 111.76 177.8 0)
 			(effects
 				(font
@@ -9113,6 +9365,24 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" "0510210300"
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "470c1e2d-ada7-4f9f-bc81-609abab5344a")
 		)
@@ -9232,6 +9502,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 58.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 58.42 161.29 0)
 			(effects
 				(font
@@ -9364,6 +9643,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 243.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c63913c-6f4a-40c3-9211-cfd00ba93467")
 		)
@@ -9461,6 +9749,15 @@
 			)
 		)
 		(property "Vendor Part Number" "EG1919-ND"
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 49.53 125.73 0)
 			(effects
 				(font
@@ -9596,6 +9893,24 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" "0510210300"
+			(at 254 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
+			(at 254 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47640791-c861-492b-a1a6-089e7651e235")
 		)
@@ -9715,6 +10030,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 66.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 66.04 161.29 0)
 			(effects
 				(font
@@ -9968,6 +10292,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 66.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 66.04 173.99 0)
 			(effects
 				(font
