@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CAN")
-		(date "2026-01-03")
+		(date "2026-01-16")
 		(rev "v5.1")
 		(company "WVU Unviersity Rover Challenge (URC)")
 	)
