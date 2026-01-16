@@ -1,6 +1,6 @@
 # Payload PCB
 
-![render](releases/payload-pcb-v5.1/payload-pcb-v5.1-render.png)
+![render](payload-pcb-v5.1-render.png)
 
 
 
@@ -32,21 +32,9 @@ Learn how to [contribute](CONTRIBUTING.md) to this project.
 
 ## DESIGN
 
-### SCHEMATIC
+![top](payload-pcb-v5.1-top.png)
 
-TODO
-
-
-### LAYOUT
-
-![top](releases/payload-pcb-v5.1/payload-pcb-v5.1-top.png)
-
-![bottom](releases/payload-pcb-v5.1/payload-pcb-v5.1-bottom.png)
-
-
-### MODEL
-
-TODO
+![bottom](payload-pcb-v5.1-bottom.png)
 
 
 ## LICENSE
