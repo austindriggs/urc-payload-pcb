@@ -534,12 +534,39 @@
         "wire_width": 6
       },
       {
+        "bus_width": 15,
+        "line_style": 0,
+        "name": "+12V",
+        "pcb_color": "rgb(255, 15, 10)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 15, 10)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 15,
+        "line_style": 0,
+        "name": "+3V3",
+        "pcb_color": "rgb(255, 115, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 115, 0)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 15,
+        "line_style": 0,
+        "name": "+5V",
+        "pcb_color": "rgb(255, 115, 0)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 115, 0)",
+        "wire_width": 12
+      },
+      {
         "bus_width": 12,
         "line_style": 0,
         "name": "GPIO",
-        "pcb_color": "rgb(186, 18, 255)",
-        "priority": 5,
-        "schematic_color": "rgb(186, 18, 255)",
+        "pcb_color": "rgb(190, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(190, 0, 255)",
         "wire_width": 6
       },
       {
@@ -547,43 +574,26 @@
         "line_style": 0,
         "name": "Ground",
         "pcb_color": "rgb(119, 119, 119)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(119, 119, 119)",
-        "wire_width": 12
-      },
-      {
-        "bus_width": 12,
-        "name": "LED",
-        "pcb_color": "rgb(235, 176, 88)",
-        "priority": 0,
-        "schematic_color": "rgb(235, 176, 88)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 15,
-        "line_style": 0,
-        "name": "Power",
-        "pcb_color": "rgb(255, 15, 10)",
-        "priority": 4,
-        "schematic_color": "rgb(255, 15, 10)",
         "wire_width": 12
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "Protocol",
-        "pcb_color": "rgb(25, 203, 38)",
+        "pcb_color": "rgb(4, 0, 255)",
         "priority": 2,
-        "schematic_color": "rgb(25, 203, 38)",
+        "schematic_color": "rgb(4, 0, 255)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "Servo",
-        "pcb_color": "rgb(57, 175, 255)",
+        "pcb_color": "rgb(34, 193, 255)",
         "priority": 1,
-        "schematic_color": "rgb(57, 175, 255)",
+        "schematic_color": "rgb(34, 193, 255)",
         "wire_width": 6
       }
     ],
@@ -594,28 +604,32 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
-        "pattern": "+*"
-      },
-      {
-        "netclass": "GPIO",
-        "pattern": "ANALOG*"
+        "netclass": "+12V",
+        "pattern": "+12V"
       },
       {
         "netclass": "Ground",
-        "pattern": "GND*"
+        "pattern": "GND"
       },
       {
-        "netclass": "Power",
-        "pattern": "VDC"
+        "netclass": "+5V",
+        "pattern": "+5V"
       },
       {
-        "netclass": "Power",
-        "pattern": "/Power/+*"
+        "netclass": "+3V3",
+        "pattern": "+3V3"
       },
       {
-        "netclass": "Protocol",
-        "pattern": "I2C*"
+        "netclass": "+12V",
+        "pattern": "/Power/+12V*"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "/GPIO/+*"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "/USB/+*"
       },
       {
         "netclass": "Protocol",
@@ -623,11 +637,31 @@
       },
       {
         "netclass": "Protocol",
-        "pattern": "/CAN/CAN*"
+        "pattern": "UART*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "I2C*"
       },
       {
         "netclass": "Servo",
         "pattern": "SERVO*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "ANALOG*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "DIGITAL*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "/Pi Pico/UART*"
+      },
+      {
+        "netclass": "Protocol",
+        "pattern": "/CAN/CAN*"
       },
       {
         "netclass": "Servo",
@@ -635,35 +669,11 @@
       },
       {
         "netclass": "Protocol",
-        "pattern": "~{CAN_INTERRUPT}"
-      },
-      {
-        "netclass": "GPIO",
-        "pattern": "DIGITAL*"
-      },
-      {
-        "netclass": "LED",
-        "pattern": "/Pi Pico/LED*"
-      },
-      {
-        "netclass": "Protocol",
         "pattern": "/USB/USB*"
       },
       {
-        "netclass": "Protocol",
-        "pattern": "UART*"
-      },
-      {
-        "netclass": "Protocol",
-        "pattern": "/Pi Pico/UART*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/GPIO/+*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/USB/+*"
+        "netclass": "+5V",
+        "pattern": "+VBUS"
       }
     ]
   },
@@ -786,6 +796,30 @@
           "group_by": false,
           "label": "Comments",
           "name": "Comments",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Assembly",
+          "name": "Assembly",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Header",
+          "name": "Header",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Cable",
+          "name": "Cable",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Housing",
+          "name": "Housing",
           "show": true
         }
       ],

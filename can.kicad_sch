@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CAN")
-		(date "2026-01-03")
+		(date "2026-01-16")
 		(rev "v5.1")
 		(company "WVU Unviersity Rover Challenge (URC)")
 	)
@@ -3179,6 +3179,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 207.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f04f14a6-1d01-439c-8b0c-63c0c0ef3032")
 		)
@@ -3294,6 +3303,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 130.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 130.81 111.76 0)
 			(effects
 				(font
@@ -3423,6 +3441,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 58.42 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd07a46e-435f-4250-82c7-d7571a87a54b")
 		)
@@ -3538,6 +3565,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" "0510210400"
+			(at 243.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
 			(at 243.84 105.41 0)
 			(effects
 				(font
@@ -3740,6 +3785,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3cc6c5df-c949-4933-9a86-704097cd3860")
 		)
@@ -3854,6 +3908,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 189.23 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 189.23 81.28 90)
 			(effects
 				(font
@@ -4371,6 +4434,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 58.42 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b43a733c-71d1-4136-bc67-c99d2e4e31d4")
 		)
@@ -4485,6 +4557,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 113.03 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 113.03 73.66 90)
 			(effects
 				(font
@@ -4681,6 +4762,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21de29f1-55e6-491f-9b72-2d0cf15d30d9")
 		)
@@ -4815,6 +4905,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 106.68 101.6 0)
 			(effects
 				(font
@@ -5252,6 +5351,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 130.81 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8ae3524-5bc3-4061-8e93-ed86c7c01cdf")
 		)
@@ -5364,6 +5472,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" "0510210400"
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cable" "0500798000-06-B6"
 			(at 243.84 87.63 0)
 			(effects
 				(font
@@ -5494,6 +5620,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 130.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 130.81 121.92 0)
 			(effects
 				(font
@@ -5725,6 +5860,15 @@
 			)
 		)
 		(property "Vendor Part Number" "FL0800011QDICT-ND"
+			(at 74.93 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 74.93 107.95 90)
 			(effects
 				(font

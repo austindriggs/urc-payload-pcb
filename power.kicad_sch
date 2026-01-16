@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power")
-		(date "2026-01-03")
+		(date "2026-01-16")
 		(rev "v5.1")
 		(company "WVU Unviersity Rover Challenge (URC)")
 	)
@@ -3219,7 +3219,7 @@
 	)
 	(text "7-bit = 0x4C\nRead = 0x99\nWrite = 0x98"
 		(exclude_from_sim no)
-		(at 135.89 95.25 0)
+		(at 131.572 93.472 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4453,6 +4453,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 76.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "300bcb4b-d717-473b-a2ef-68821ad53064")
 		)
@@ -4575,6 +4584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 236.22 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d51dd39f-c311-46d1-b167-b9c0839cf745")
 		)
@@ -4670,6 +4688,15 @@
 			)
 		)
 		(property "Vendor Part Number" "738-CSR1206FT30L0CT-ND"
+			(at 165.1 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 165.1 58.42 90)
 			(effects
 				(font
@@ -4863,6 +4890,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 118.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4fde751c-d898-40f6-b72c-af3b30369931")
 		)
@@ -4979,6 +5015,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 81.28 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 81.28 53.34 90)
 			(effects
 				(font
@@ -5111,6 +5156,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 120.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2e93a69-bec5-46f2-a282-472a1eda8aa8")
 		)
@@ -5224,6 +5278,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 107.95 184.15 0)
 			(effects
 				(font
@@ -5351,6 +5414,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 76.2 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fde44898-220d-461c-a254-01289641a3b2")
 		)
@@ -5449,6 +5521,15 @@
 			)
 		)
 		(property "Vendor Part Number" "505-LTC2990IMS#TRPBFCT-ND"
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 161.29 83.82 0)
 			(effects
 				(font
@@ -5604,6 +5685,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "542fe8cb-a227-4ba6-bded-0efafe1a1d98")
 		)
@@ -5728,6 +5818,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 96.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eef79d33-3e63-481b-835f-7e1175f85e46")
 		)
@@ -5825,6 +5924,15 @@
 			)
 		)
 		(property "Vendor Part Number" "MMBT3904LT1GOSCT-ND"
+			(at 194.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 194.31 83.82 0)
 			(effects
 				(font
@@ -5961,6 +6069,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 100.33 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7f17225-7c83-4de4-9af7-35c1872ebc6f")
 		)
@@ -6085,6 +6202,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c23fe54b-d56f-4cdf-bc27-88ac0ba801b6")
 		)
@@ -6196,6 +6322,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "2147561061"
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 237.49 137.16 0)
 			(effects
 				(font
@@ -6332,6 +6476,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 133.35 128.27 0)
 			(effects
 				(font
@@ -6515,6 +6668,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 92.71 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 92.71 55.88 90)
 			(effects
 				(font
@@ -6777,6 +6939,24 @@
 				(hide yes)
 			)
 		)
+		(property "Assembly" "2147561021"
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8faf5b25-29a7-4f83-8859-7169d94c6824")
 		)
@@ -7021,6 +7201,15 @@
 		)
 		(property "Notes" ""
 			(at 236.22 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
+			(at 236.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,6 +7469,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d397d0b-d6a2-4c80-93b4-fd9d4bc7553e")
 		)
@@ -7399,6 +7597,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 139.7 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ac01246-0bb6-4b24-9120-c0476a71b1ce")
 		)
@@ -7494,6 +7701,15 @@
 			)
 		)
 		(property "Vendor Part Number" "738-CSR1206FT30L0CT-ND"
+			(at 165.1 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 165.1 48.26 90)
 			(effects
 				(font
@@ -7615,6 +7831,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 55.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 55.88 128.27 0)
 			(effects
 				(font
@@ -7816,6 +8041,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 71.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0940e9be-3aca-4fcd-b34a-c3fd0546293a")
 		)
@@ -7929,6 +8163,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -8117,6 +8360,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 71.12 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 71.12 53.34 0)
 			(effects
 				(font
@@ -8434,6 +8686,15 @@
 		)
 		(property "Notes" ""
 			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
+			(at 60.96 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,6 +9211,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1215c7a7-05cf-4fea-97cf-69e348c050b6")
 		)
@@ -9043,6 +9313,15 @@
 		)
 		(property "Vendor Part Number" "RNCP0603FTD22R1CT-ND"
 			(at 139.7 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
+			(at 139.7 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,6 +9716,15 @@
 				(hide yes)
 			)
 		)
+		(property "Housing" ""
+			(at 180.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d85ac9de-a554-4d2a-b00e-93b45c5e2ab4")
 		)
@@ -9663,6 +9951,15 @@
 			)
 		)
 		(property "Vendor Part Number" "738-CSR1206FT30L0CT-ND"
+			(at 165.1 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Housing" ""
 			(at 165.1 53.34 90)
 			(effects
 				(font
