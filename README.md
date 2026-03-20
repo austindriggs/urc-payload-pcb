@@ -1,7 +1,6 @@
-# Payload PCB
+# Payload PCB at WVU for Mars Society's University Rover Challenge (URC)
 
-![render](releases/payload-pcb-v5.1/payload-pcb-v5.1-render.png)
-
+![urc-payload-pcb](releases/payload-pcb-v5.1/images/urc-payload-pcb.jpg)
 
 
 ## SUMMARY
@@ -9,7 +8,6 @@
 The Payload PCB serves as an all-purpose control and interface board that contains the Raspberry Pi Pico (RP2040) designed to manage mission-critical sensors and electronics and communicate that information through its Micro USB connector to the LattePanda Sigma SBC.
 
 Learn how to [contribute](CONTRIBUTING.md) to this project.
-
 
 
 ## FEATURES
@@ -32,21 +30,32 @@ Learn how to [contribute](CONTRIBUTING.md) to this project.
 
 ## DESIGN
 
+<!--
 ### SCHEMATIC
 
 TODO
 
 
 ### LAYOUT
+--->
 
 ![top](releases/payload-pcb-v5.1/payload-pcb-v5.1-top.png)
 
 ![bottom](releases/payload-pcb-v5.1/payload-pcb-v5.1-bottom.png)
 
-
+<!--
 ### MODEL
 
 TODO
+--->
+
+
+## DEIMOS (ROVER) AND PHOBOS (DRONE) FOR 2026
+
+Click the image below to watch the System Acceptance Review (SAR) on YouTube:  
+<a href="https://youtu.be/ZTezlA8RuXI?si=s-GYmmxkBqftyrRB" target="_blank">
+  <img src="/releases/payload-pcb-v5.1/images/urc-rover.jpg" alt="URC Rover Video" width="1000" style="border:0;">
+</a>
 
 
 ## LICENSE
