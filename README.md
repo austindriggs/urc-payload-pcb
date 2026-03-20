@@ -2,11 +2,9 @@
 
 ![Competition](https://img.shields.io/badge/Competition-Mars_Society_URC_2026-red)
 ![Team](https://img.shields.io/badge/Team-WVU_Mountaineers-blue)
-![Role](https://img.shields.io/badge/Role-Electronics_Lead-gold)
 ![KiCad](https://img.shields.io/badge/Design-KiCad-green?logo=kicad&logoColor=white)
 ![RP2040](https://img.shields.io/badge/MCU-RP2040-purple?logo=raspberrypi&logoColor=white)
 ![License](https://img.shields.io/github/license/austindriggs/urc-payload-pcb?color=blue)
-![Last Commit](https://img.shields.io/github/last-commit/austindriggs/urc-payload-pcb)
 
 ![urc-payload-pcb](releases/payload-pcb-v5.1/images/urc-payload-pcb.jpg)
 
